@@ -1,0 +1,31 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/generated/**
+    - lib/**.g.dart
+    - test/**.mocks.dart
+    - drivers/test/**.mocks.dart
+    - drivers/lib/**.g.dart
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    - prefer_final_fields
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - non_constant_identifier_names
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_literals_to_create_immutables
+    - unnecessary_const
+    - sort_child_properties_last
+    - avoid_positional_boolean_parameters
+    - unawaited_futures
+    - await_only_futures
+    - prefer_single_quotes
+    - avoid_print
+    - flutter_style_todos
+    # - public_member_api_docs

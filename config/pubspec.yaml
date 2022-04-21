@@ -1,0 +1,22 @@
+name: config
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  drivers:
+    path: ../drivers
+  hive: ^2.0.4
+  hive_flutter: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  app_lints:
+    path: ../app_lints
+
+flutter:
